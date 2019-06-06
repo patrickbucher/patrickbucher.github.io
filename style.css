@@ -1,0 +1,58 @@
+body {
+    margin: 1em auto;
+    padding: 0 1em 5em 1em;
+    max-width: 45em;
+    min-width: 20em;
+    font-size: 16px;
+    color: #404040;
+    background-color: #fafafa;
+    font-family: sans-serif;
+}
+
+body:not(.index):last-child:after {
+    padding: 1em;
+    display: block;
+    content: "❦";
+    text-align: center;
+}
+
+h1, .subtitle, .author, .date {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.subtitle {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+p, li {
+    font-family: serif;
+    text-align: justify;
+    hyphens: auto;
+    line-height: 1.5;
+}
+
+ul.nav {
+    padding: 0;
+}
+
+ul.nav li {
+    list-style: none;
+}
+
+footer p {
+    font-family: sans-serif;
+    margin: 2em 0 0 0;
+    font-size: 13px;
+}
+
+code {
+    font-size: 90%;
+}
+
+pre {
+    background-color: #eee;
+    padding: 0.5em;
+    border-radius: 5px;
+}
